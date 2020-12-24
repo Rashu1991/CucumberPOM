@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-21T13:46:47.775Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11907000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login Page title",
+        "description": "",
+        "id": "login-page-feature;login-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 999000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6178000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the login page",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user gets the title of the page",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.user_gets_the_title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the title of the login page should be \"Login - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - My Store\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdefinations.LoginPageSteps.the_title_of_the_login_page_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-21T13:47:07.363Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4121000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Forgot Password Link",
+        "description": "",
+        "id": "login-page-feature;forgot-password-link",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 909000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4910000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the login page",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 443000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "forgot password link should be displayed",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.forgot_password_link_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-21T13:47:17.758Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4093000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login-page-feature;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1118000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4873000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on the login page",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 359000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters username \"rashushobhitvarshney@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rashushobhitvarshney@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinations.LoginPageSteps.user_enters_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 286000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinations.LoginPageSteps.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2357000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on sign in button",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user gets the title of the page",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.user_gets_the_title_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "page title should be \"My account - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account - My Store\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinations.LoginPageSteps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login page feature",
+    "description": "",
+    "id": "login-page-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/Login.feature",
+    "tags": []
+  }
+]

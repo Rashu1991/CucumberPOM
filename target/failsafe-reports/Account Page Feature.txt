@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: Account Page Feature
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 18.828 s <<< FAILURE! - in Account Page Feature
+Accounts page title(Account Page Feature)  Time elapsed: 16.951 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OFC8VFN', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+Accounts page title(Account Page Feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Accounts page title(Account Page Feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Accounts section count(Account Page Feature)  Time elapsed: 1.867 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OFC8VFN', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+Accounts section count(Account Page Feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Accounts section count(Account Page Feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
