@@ -23,3 +23,11 @@ stages{
 	
 }
 }
+<<<<<<< HEAD:jenkinsfile
+=======
+
+
+
+
+}
+>>>>>>> e31727e400c5d443efa8c9695e3a4db279b01157:Jenkinsfile
