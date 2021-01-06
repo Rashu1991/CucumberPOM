@@ -21,14 +21,6 @@ stages{
 		
 	}
 	
-	stage ('Deployment Stage'){
-		steps{
-			withMaven(maven : 'testMaven'){
-			sh 'mvn deploy'
-			}
-		}
-		
-	}
 }
 
 
